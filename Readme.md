@@ -6,7 +6,7 @@ HDFC Bank's custom date range statements download  are only in PDF format, which
 
 1. Clone or download the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/1YaswantH1/analytics_statements_hdfc.git
 cd analytics_statements_hdfc
 ```
 
