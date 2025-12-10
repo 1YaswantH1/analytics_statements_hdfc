@@ -2,6 +2,12 @@
 
 HDFC Bank's custom date range statements download  are only in PDF format, which makes data analysis difficult. This tool extracts and converts HDFC bank statements to CSV or XLSX format for easier analysis.
 
+# Preview of the hdfc pdf 
+![Alt text](hdfc_template_pdf.png)
+
+
+
+
 ### Setup
 
 1. Clone or download the repository:
