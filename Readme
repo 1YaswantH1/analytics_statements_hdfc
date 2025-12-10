@@ -1,0 +1,36 @@
+## HDFC Bank Statement PDF to CSV/XLSX Converter
+
+HDFC Bank's custom date range statements download  are only in PDF format, which makes data analysis difficult. This tool extracts and converts HDFC bank statements to CSV or XLSX format for easier analysis.
+
+### Setup
+
+1. Clone or download the repository:
+```bash
+git clone <repository-url>
+cd analytics_statements_hdfc
+```
+
+2. Install required dependencies:
+```bash
+pip install pdfplumber pandas
+```
+
+### Usage
+
+1. Place your HDFC bank statement PDF in the project directory
+
+2. Open `analysis_hdfc.py` and update the PDF filename:
+```python
+pdf_filename = "statement.pdf"  # Change this to your PDF filename
+```
+
+3. Choose your output format by modifying the output file line:
+   - For Excel format: `output_file = "hdfc_cleaned_data.xlsx"`
+   - For CSV format: `output_file = "hdfc_cleaned_data.csv"`
+
+4. Run the script:
+```bash
+python analysis_hdfc.py
+```
+
+The script will extract and clean the data, removing unnecessary information and saving it in your chosen format.
