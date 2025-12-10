@@ -33,4 +33,4 @@ pdf_filename = "statement.pdf"  # Change this to your PDF filename
 python analysis_hdfc.py
 ```
 
-The script will extract and clean the data, removing unnecessary information and saving it in your chosen format.
+The script will extract and clean the data. It will remove unnecessary information and save it in the format you choose.Now you are freely able to perform data anaysis.
